@@ -1,19 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Emergency Hotline</title>
     <!-- Using Using PostCSS  -->
-    <link href="styles.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet"/>
     <!-- Using Play CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/860a7eb828.js" crossorigin="anonymous"></script>
     <!-- Using import CSS File -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
 
-  <body>
+  <body class="antialiased">
 
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!--Header Section Start-->
+
+    <header id="header" class="py-6">
+        <div class="w-[1800px] mx-auto">
+            <div class="header-inner flex justify-between items-center">
+                <div class="header-left flex items-center gap-2">
+                    <img class="w-[50px] h-[50px]" src="./images/logo.png" alt="Emergency Service Directory">
+                    <h3 class="hind-madurai-bold text-2xl leading-none text-[#006747]">Emergency<br>Service</h3>
+                </div>
+                <!--header-left -->
+
+                <div class="header-right flex gap-5">
+                    <div class="heart bg-[#41ff6b1a] rounded-full px-[35px] py-[11px] flex gap-2 items-center">
+                        <div id="heart-count" class="inter-black">0</div>
+                        <img class="w-[30px] h-[30px]" src="./images/heart.png" alt="Heart Icon">
+                    </div>
+                    <div class="coin bg-[#41ff6b1a] rounded-full px-[35px] py-[11px] flex gap-2 items-center">
+                        <div id="coin-count" class="inter-black">100</div>
+                        <img class="w-[30px] h-[30px]" src="./images/coin.png" alt="Coin Icon">
+                    </div>
+                    <div class="copy bg-[#00a63e] rounded-full px-[35px] py-[11px] text-white flex gap-2 items-center">
+                        <p class="inter-semibold"><span id="copy-count">0</span> Copy</p>
+                    </div>
+                </div>
+                <!-- header-right -->
+            </div>
+        </div>
+    </header>
     
+    <main id="main">
+
+    <!--Banner Section Start-->
+
+
+    </main>
+
+
   </body>
 </html>
