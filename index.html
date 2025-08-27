@@ -209,11 +209,22 @@
                                 <button class="call-btn bg-[#00a63e] text-white rounded-lg py-2 px-4 w-full cursor-pointer"><span class="mr-1"><i class="fa-solid fa-phone"></i></span>Call</button>
                             </div>
                         </div>
-
-                        <!--* Emergency List Section END-->
-
+                    <!--* Emergency List Section END-->
                     </section>
 
+                    
+                    <!--* Call History Section Start -->
+                    <section id="call-history" class="order-1 lg:order-2 col-span-12 lg:col-span-4 xl:col-span-3 bg-white rounded-xl p-6 shadow-sm">
+                        <div class="call-history-top flex items-center justify-between mb-4">
+                            <div class="call-history-text roboto-medium text-xl text-[#111111]">
+                                <span><i class="fa-regular fa-clock"></i></span>
+                                Call History
+                            </div>
+                            <button id="history-clear-btn" class="cursor-pointer py-4 px-9 bg-[#00a63e] rounded-full text-white text-base inter-semibold">Clear</button>
+                        </div>
+
+                        <div id="call-history-wrapper"></div>
+                    </section>
                 </div>
             </div>
         </section>
